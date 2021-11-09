@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Rádio Medianeira FM 102.7</string>
-    <string name="title_1">Rádio Medianeira FM 102.7</string>
+    <string name="app_name">Rádio NRPC</string>
+    <string name="title_1">Rádio NRPC</string>
     <string name="title_2">Facebook</string>
 
     <string name="connection_error_dialog_title">Erro de conexão</string>
@@ -15,8 +15,8 @@
 
     <string name="welcome_small">Toque para iniciar</string>
 
-    <string name="radio_name">Rádio Medianeira</string>
-    <string name="radio_location">102.7</string>
+    <string name="radio_name">Rádio NRPC</string>
+    <string name="radio_location"></string>
     <string name="radio_url">https://r11.ciclano.io:15042/stream</string>
 
     <string name="web_url">https://www.facebook.com/</string>
