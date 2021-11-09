@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="main_color" type="color">#fdfdfe</item>
+    <item name="track_title_start" type="color">#7b000000</item>
+    <item name="colorPrimary" type="color">#000000</item>
+    <item name="colorSecondary" type="color">#000000</item>
+    <color name="original_back">#F3F3F3</color>
+</resources>

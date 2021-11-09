@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId 'com.ciclanohost.radionrpc'
+        minSdkVersion 17
+        targetSdkVersion 29
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+}
+
+dependencies {
+    implementation 'com.google.android.gms:play-services:12.0.1'
+    implementation 'com.google.android.exoplayer:exoplayer:r2.0.0'
+    implementation 'com.android.support:support-v4:26.1.0'
+    implementation 'com.android.support:multidex:1.0.1'
+    implementation "com.android.support:appcompat-v7:26.1.0"
+}
